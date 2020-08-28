@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.social__medias {
+  width: 100%;
+  background-color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__medias {
+  width: 80%;
+  height: 35px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__medias .fab {
+  padding-left: 10px;
+}
+
+.contact__medias select {
+  background: grey;
+  color: white;
+  border: 1px solid white;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.contact__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border-left: 1px solid white;
+}
+
+.contact__phone .fab {
+  padding: 0 10px;
+  font-size: 25px;
+}
+
+.contact__phone p {
+  padding-left: 10px;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 100px;
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row nowrap;
+          flex-direction: row nowrap;
+}
+
+.nav-bar li {
+  background: red;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-bar li:hover {
+  color: black;
+  opacity: 0.5;
+}
+
+.specify__product {
+  margin-top: 5%;
+  padding: 0 200px;
+}
+
+.specify__product aside {
+  float: right;
+  width: 35%;
+  height: 700px;
+}
+
+.specify__product aside hr {
+  margin: 30px 0;
+  border: 1px solid grey;
+}
+
+.specify__product aside #buy {
+  width: 100%;
+  height: 40px;
+  background: red;
+  margin-top: 20px;
+  color: white;
+  border-color: transparent;
+  font-size: 20px;
+}
+
+.specify__product aside #buy a {
+  color: inherit;
+}
+
+.specify__product aside #repair {
+  width: 100%;
+  font-size: 20px;
+  margin-top: 10px;
+  background: transparent;
+  border-color: transparent;
+  color: grey;
+}
+
+.specify__product aside .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 25px;
+}
+
+.specify__product p {
+  font-size: 20px;
+}
+
+.specify__product .travel i {
+  font-size: 30px;
+  margin-left: 15%;
+}
+/*# sourceMappingURL=product.css.map */

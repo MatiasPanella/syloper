@@ -1,0 +1,98 @@
+.trolly__container {
+  width: 75%;
+  margin: 50px auto;
+}
+
+.trolly__container .grid__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: grey;
+  height: 90px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.trolly__container .grid__product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 90px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.trolly__container .cell-1,
+.trolly__container .cell-5 {
+  width: 40%;
+}
+
+.trolly__container .cell-2,
+.trolly__container .cell-3,
+.trolly__container .cell-4,
+.trolly__container .cell-7,
+.trolly__container .cell-6,
+.trolly__container .cell-8 {
+  width: 11%;
+}
+
+.trolly__container .recipt {
+  float: right;
+  width: 30%;
+  margin-left: 20px;
+}
+
+.trolly__container .recipt .sub-tot,
+.trolly__container .total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.trolly__container .celda-1,
+.trolly__container .celda-2,
+.trolly__container .celda-3,
+.trolly__container .celda-4 {
+  width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.trolly__container .celda-5 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0557/2945/products/Sensor_DHT11_-_ElectroCrea_94445692-919d-48b9-be5d-773d24dc0700_x700.png?v=1546436192");
+}
+
+.trolly__container .celda-1, .trolly__container .celda-3 {
+  background: rgba(131, 131, 131, 0.349);
+  padding-left: 3%;
+}
+
+.trolly__container .celda-2, .trolly__container .celda-4 {
+  text-align: center;
+}
+
+.trolly__container #btn-recipt {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background: red;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=trolley.css.map */

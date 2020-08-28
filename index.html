@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,user-scalable=no,maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/65373890e3.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Syloper Template</title>
+  </head>
+  <body>
+    <header>
+      <div class="social__medias">
+        <div class="contact__medias">
+          <select>
+            <option value="español">ESPAÑOL</option>
+            <option value="ingles">INGLES</option>
+            <option value="portugues">PORTUGUES</option>
+          </select>
+          <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+          </div>
+          <div class="links">
+            <a href="#">Soporte</a>
+            <a href="#">Descargas</a>
+            <a href="#">Contacto</a>
+          </div>
+        </div>
+        <div class="contact__phone">
+          <i class="fab fa-facebook-messenger"></i>
+          <i class="fab fa-whatsapp"></i>
+          <p><b>Hablá</b> con nosotros</p>
+        </div>
+      </div>
+
+      <nav class="nav-bar">
+        <ul>
+          <li><b>Agricultura</b></li>
+          <li><b>Transporte</b></li>
+          <li><b>Transformacion Vehicular</b></li>
+          <li><b>Soluciones Especiales</b></li>
+          <li><b>Sobre Sensor</b></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="slideshow-container">
+      <div id="arrow-left" class="arrow"></div>
+      <div id="slider">
+        <div class="slide slide1">
+          <div class="slide-content"></div>
+        </div>
+        <div class="slide slide2">
+          <div class="slide-content"></div>
+        </div>
+        <div class="slide slide3">
+          <div class="slide-content"></div>
+        </div>
+      </div>
+      <div id="arrow-right" class="arrow"></div>
+    </div>
+
+    <div class="product_container">
+      <h1>Productos</h1>
+      <div class="list">
+        <div class="search">
+          <select>
+            <option value="recientes">Recientes</option>
+            <option value="mas-relevante">Mas Relevantes</option>
+            <option value="menos-relevante">Menos Relevantes</option>
+          </select>
+          <p>1-42 de 200 resultados</p>
+        </div>
+        <div class="numbers">
+          <a href="" id="first">1</a>
+          <a href="">2</a>
+          <a href="">3</a>
+          <a href="" id="dots">...</a>
+          <a href="">9</a>
+          <a href="">10</a>
+          <a href="">11</a>
+          <a href="">&rarr;</a>
+        </div>
+      </div>
+      <div class="row" id="products"></div>
+    </div>
+      <aside class="carrito">
+        <h2>Carrito <i class="fas fa-shopping-cart"></i></h2>
+        <h3>Categorias</h3>
+        <hr>
+        <button id="clothes">Clothing</button>
+        <div id="catalog" class="noVisible"></div>
+        <br>
+        <button id="electrics">Electronics</button>
+        <div id="catalog1" class="noVisible"></div>
+        <br>
+        <button id="house">House</button>
+        <div id="catalog2" class="noVisible"></div>
+
+      </aside>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick='cerrarModal()'>&times;</span>
+          <p id='object_description'></p>
+        </div>
+      </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
